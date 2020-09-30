@@ -1,0 +1,149 @@
+body{
+    background-color: #e8ded2;
+    margin:0; /*override the default browser style (8px)*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #056676;
+    /*line-height: 2; double*/
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px, auto, 0, auto; /*override the default browser margin style*/
+}
+
+
+h2{
+    color: #056676;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding-bottom: 10px; /*NEW - by the instructor*/
+}
+
+h3{
+    color: #056676;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+
+.my-title{
+    font-weight: normal;
+}
+
+hr{ /*NEW*/
+    border: dotted #878a8a 6px;
+    /*border-style: dotted none none none; - can be also done with this, and under "border" remain just color and pixles*/
+    border-bottom: none;
+    margin: 50px auto;
+    width: 4%;
+}
+
+.top-container{
+    background-color: #a3d2ca;
+    position: relative; /*add this so the cloud images will be relative to this top container (their parent) and not to the body*/
+    padding-top: 100px;
+}
+
+.intro{ /*NEW - by the instructor*/
+    width: 40%;
+    margin: auto;
+}
+
+.middle-container{ /*NEW*/
+    margin: 50px 0;
+}
+
+.bottom-container{ /*NEW*/
+    background-color: #056676;
+    color: #11999E;
+    padding: 50px 0 20px;
+}
+
+.linkedin-link{ /*NEW*/
+    color:#11999E;
+}
+
+a{ /*NEW*/
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.profile-picture{
+    width: 15%;
+}
+
+.skill-row{
+    margin: 80px auto 80px auto; /*need auto to keep it centered because the width cancel the centering*/
+    text-align: left;
+    width: 50%;
+}
+
+.development-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.quality-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+}
+
+.contact-me-button {
+    background: #A3D2CA;
+    background-image: -webkit-linear-gradient(top, #A3D2CA, #1F7791);
+    background-image: -moz-linear-gradient(top, #A3D2CA, #1F7791);
+    background-image: -o-linear-gradient(top, #A3D2CA, #1F7791);
+    background-image: linear-gradient(to bottom, #A3D2CA, #1F7791);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    border-width: 0;
+    box-shadow: 1px 1px 2px 0  #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.contact-me-button:hover {
+    background: #3C97CD;
+    background-image: -webkit-linear-gradient(top, #3C97CD, #2C84B9);
+    background-image: -moz-linear-gradient(top, #3C97CD, #2C84B9);
+    background-image: -ms-linear-gradient(top, #3C97CD, #2C84B9);
+    background-image: -o-linear-gradient(top, #3C97CD, #2C84B9);
+    background-image: linear-gradient(to bottom, #3C97CD, #2C84B9);
+    border-radius: 20px;
+    text-decoration: none;
+}
